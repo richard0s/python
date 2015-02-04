@@ -1,5 +1,4 @@
 ﻿from sys import argv
-from os.path import exists#exists方法会检查文件是否存在，返回True或False
 script, from_file, to_file = argv
 tit = "> "
 print "%scopying from %s to %s" % (tit, from_file, to_file)
